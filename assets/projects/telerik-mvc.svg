@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 480" width="100%" height="100%">
+  <defs>
+    <linearGradient id="telBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a" />
+      <stop offset="100%" stop-color="#311042" />
+    </linearGradient>
+    <linearGradient id="telAccent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#a855f7" />
+      <stop offset="100%" stop-color="#ec4899" />
+    </linearGradient>
+    <filter id="shadowTel" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#000000" flood-opacity="0.5"/>
+    </filter>
+  </defs>
+
+  <rect width="800" height="480" rx="16" fill="url(#telBg)" />
+  <circle cx="680" cy="100" r="160" fill="#a855f7" fill-opacity="0.1" filter="blur(60px)" />
+  <circle cx="120" cy="380" r="140" fill="#ec4899" fill-opacity="0.08" filter="blur(50px)" />
+
+  <!-- Frame -->
+  <rect x="40" y="30" width="720" height="420" rx="12" fill="#0f172a" fill-opacity="0.9" stroke="rgba(255,255,255,0.1)" stroke-width="1.5" filter="url(#shadowTel)" />
+
+  <!-- Header -->
+  <rect x="40" y="30" width="720" height="44" rx="12" fill="#1e293b" fill-opacity="0.6" />
+  <circle cx="65" cy="52" r="5" fill="#ef4444" />
+  <circle cx="82" cy="52" r="5" fill="#f59e0b" />
+  <circle cx="99" cy="52" r="5" fill="#10b981" />
+  <text x="400" y="57" fill="#94a3b8" font-family="'Inter', sans-serif" font-size="12" text-anchor="middle" font-weight="500">Telerik UI MVC Enterprise Data Analytics &amp; Reporting Portal</text>
+
+  <!-- Left: Data Chart / Grid -->
+  <rect x="60" y="90" width="340" height="180" rx="8" fill="#1e293b" fill-opacity="0.4" stroke="rgba(255,255,255,0.06)" />
+  <text x="80" y="116" fill="#f1f5f9" font-family="'Outfit', sans-serif" font-size="13" font-weight="600">Quarterly Operational Throughput</text>
+  
+  <!-- Bar chart -->
+  <rect x="90" y="210" width="32" height="40" rx="4" fill="#3b82f6" />
+  <rect x="140" y="180" width="32" height="70" rx="4" fill="#6366f1" />
+  <rect x="190" y="150" width="32" height="100" rx="4" fill="#8b5cf6" />
+  <rect x="240" y="130" width="32" height="120" rx="4" fill="url(#telAccent)" />
+  <rect x="290" y="160" width="32" height="90" rx="4" fill="#38bdf8" />
+  <rect x="340" y="140" width="32" height="110" rx="4" fill="#10b981" />
+
+  <!-- Right: Pie / Metrics breakdown -->
+  <rect x="420" y="90" width="320" height="180" rx="8" fill="#1e293b" fill-opacity="0.4" stroke="rgba(255,255,255,0.06)" />
+  <text x="440" y="116" fill="#f1f5f9" font-family="'Outfit', sans-serif" font-size="13" font-weight="600">Telerik Kendo UI Data Distribution</text>
+  <circle cx="510" cy="185" r="50" fill="none" stroke="#334155" stroke-width="20" />
+  <circle cx="510" cy="185" r="50" fill="none" stroke="url(#telAccent)" stroke-width="20" stroke-dasharray="190 314" stroke-linecap="round" />
+  <text x="510" y="190" fill="#ffffff" font-family="'Outfit', sans-serif" font-size="14" font-weight="700" text-anchor="middle">68%</text>
+
+  <rect x="590" y="145" width="10" height="10" rx="2" fill="#ec4899" />
+  <text x="608" y="154" fill="#cbd5e1" font-family="'Inter', sans-serif" font-size="10">Server Processed</text>
+  <rect x="590" y="170" width="10" height="10" rx="2" fill="#8b5cf6" />
+  <text x="608" y="179" fill="#cbd5e1" font-family="'Inter', sans-serif" font-size="10">Client Cached</text>
+  <rect x="590" y="195" width="10" height="10" rx="2" fill="#334155" />
+  <text x="608" y="204" fill="#cbd5e1" font-family="'Inter', sans-serif" font-size="10">Aggregated</text>
+
+  <!-- Bottom: Telerik Data Grid with Sorting/Paging -->
+  <rect x="60" y="284" width="680" height="146" rx="8" fill="#1e293b" fill-opacity="0.4" stroke="rgba(255,255,255,0.06)" />
+  <rect x="80" y="296" width="640" height="26" rx="4" fill="#0f172a" />
+  <text x="96" y="313" fill="#64748b" font-family="'Inter', sans-serif" font-size="10" font-weight="600">ID ▲</text>
+  <text x="160" y="313" fill="#64748b" font-family="'Inter', sans-serif" font-size="10" font-weight="600">ENTITY / RECORD</text>
+  <text x="360" y="313" fill="#64748b" font-family="'Inter', sans-serif" font-size="10" font-weight="600">ASP.NET CONTROLLER</text>
+  <text x="540" y="313" fill="#64748b" font-family="'Inter', sans-serif" font-size="10" font-weight="600">EXEC TIME</text>
+  <text x="660" y="313" fill="#64748b" font-family="'Inter', sans-serif" font-size="10" font-weight="600">ACTIONS</text>
+
+  <rect x="80" y="328" width="640" height="30" rx="2" fill="#1e293b" fill-opacity="0.6" />
+  <text x="96" y="347" fill="#38bdf8" font-family="'Inter', sans-serif" font-size="10">#00481</text>
+  <text x="160" y="347" fill="#f8fafc" font-family="'Inter', sans-serif" font-size="10">FinancialAudit_Q3_Batch</text>
+  <text x="360" y="347" fill="#94a3b8" font-family="'Inter', sans-serif" font-size="10">ReportController.cs</text>
+  <text x="540" y="347" fill="#34d399" font-family="'Inter', sans-serif" font-size="10">14 ms (Optimized)</text>
+  <rect x="660" y="334" width="46" height="18" rx="3" fill="#8b5cf6" fill-opacity="0.3" />
+  <text x="683" y="346" fill="#c084fc" font-family="'Inter', sans-serif" font-size="9" text-anchor="middle">Export</text>
+
+  <rect x="80" y="362" width="640" height="30" rx="2" fill="#1e293b" fill-opacity="0.3" />
+  <text x="96" y="381" fill="#38bdf8" font-family="'Inter', sans-serif" font-size="10">#00482</text>
+  <text x="160" y="381" fill="#f8fafc" font-family="'Inter', sans-serif" font-size="10">TelemetryLog_Aggregator</text>
+  <text x="360" y="381" fill="#94a3b8" font-family="'Inter', sans-serif" font-size="10">TelemetryController.cs</text>
+  <text x="540" y="381" fill="#34d399" font-family="'Inter', sans-serif" font-size="10">21 ms (Optimized)</text>
+  <rect x="660" y="368" width="46" height="18" rx="3" fill="#8b5cf6" fill-opacity="0.3" />
+  <text x="683" y="380" fill="#c084fc" font-family="'Inter', sans-serif" font-size="9" text-anchor="middle">Export</text>
+</svg>

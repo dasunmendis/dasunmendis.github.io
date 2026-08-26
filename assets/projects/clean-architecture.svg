@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 480" width="100%" height="100%">
+  <defs>
+    <linearGradient id="archBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a" />
+      <stop offset="100%" stop-color="#082f49" />
+    </linearGradient>
+    <linearGradient id="archAccent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0ea5e9" />
+      <stop offset="100%" stop-color="#06b6d4" />
+    </linearGradient>
+    <filter id="shadowArch" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#000000" flood-opacity="0.5"/>
+    </filter>
+  </defs>
+
+  <rect width="800" height="480" rx="16" fill="url(#archBg)" />
+  <circle cx="680" cy="100" r="160" fill="#0284c7" fill-opacity="0.1" filter="blur(60px)" />
+  <circle cx="120" cy="380" r="140" fill="#06b6d4" fill-opacity="0.08" filter="blur(50px)" />
+
+  <!-- Frame -->
+  <rect x="40" y="30" width="720" height="420" rx="12" fill="#0f172a" fill-opacity="0.9" stroke="rgba(255,255,255,0.1)" stroke-width="1.5" filter="url(#shadowArch)" />
+
+  <!-- Header -->
+  <rect x="40" y="30" width="720" height="44" rx="12" fill="#1e293b" fill-opacity="0.6" />
+  <circle cx="65" cy="52" r="5" fill="#ef4444" />
+  <circle cx="82" cy="52" r="5" fill="#f59e0b" />
+  <circle cx="99" cy="52" r="5" fill="#10b981" />
+  <text x="400" y="57" fill="#94a3b8" font-family="'Inter', sans-serif" font-size="12" text-anchor="middle" font-weight="500">ASP.NET Core Clean Architecture • CQRS, MediatR &amp; Repository Pattern</text>
+
+  <!-- Left Side: Clean Architecture Layers Diagram -->
+  <g transform="translate(230, 240)">
+    <!-- External Layer (Presentation & Infrastructure) -->
+    <circle cx="0" cy="0" r="145" fill="#0369a1" fill-opacity="0.15" stroke="#0284c7" stroke-width="1.5" stroke-dasharray="4 4" />
+    <text x="0" y="-126" fill="#38bdf8" font-family="'Inter', sans-serif" font-size="10" font-weight="700" text-anchor="middle">PRESENTATION &amp; INFRASTRUCTURE</text>
+
+    <!-- Application Layer -->
+    <circle cx="0" cy="0" r="105" fill="#0284c7" fill-opacity="0.2" stroke="#38bdf8" stroke-width="1.5" />
+    <text x="0" y="-88" fill="#7dd3fc" font-family="'Inter', sans-serif" font-size="10" font-weight="700" text-anchor="middle">APPLICATION / USE CASES (MediatR)</text>
+
+    <!-- Domain Entities Core -->
+    <circle cx="0" cy="0" r="62" fill="url(#archAccent)" stroke="#ffffff" stroke-width="2" />
+    <text x="0" y="-8" fill="#082f49" font-family="'Outfit', sans-serif" font-size="12" font-weight="800" text-anchor="middle">DOMAIN</text>
+    <text x="0" y="10" fill="#082f49" font-family="'Inter', sans-serif" font-size="9" font-weight="700" text-anchor="middle">Entities &amp; Rules</text>
+  </g>
+
+  <!-- Right Side: Architecture Pipeline / Tech Stack Cards -->
+  <rect x="420" y="90" width="310" height="74" rx="8" fill="#1e293b" fill-opacity="0.5" stroke="rgba(255,255,255,0.06)" />
+  <rect x="435" y="105" width="36" height="36" rx="6" fill="#0284c7" fill-opacity="0.25" />
+  <text x="453" y="128" fill="#38bdf8" font-family="'Inter', sans-serif" font-size="13" text-anchor="middle">⚡</text>
+  <text x="485" y="118" fill="#f8fafc" font-family="'Outfit', sans-serif" font-size="13" font-weight="600">CQRS &amp; MediatR Handlers</text>
+  <text x="485" y="136" fill="#94a3b8" font-family="'Inter', sans-serif" font-size="10">Decoupled command and query execution pipelines</text>
+
+  <rect x="420" y="174" width="310" height="74" rx="8" fill="#1e293b" fill-opacity="0.5" stroke="rgba(255,255,255,0.06)" />
+  <rect x="435" y="189" width="36" height="36" rx="6" fill="#10b981" fill-opacity="0.25" />
+  <text x="453" y="212" fill="#34d399" font-family="'Inter', sans-serif" font-size="13" text-anchor="middle">🗄️</text>
+  <text x="485" y="202" fill="#f8fafc" font-family="'Outfit', sans-serif" font-size="13" font-weight="600">Entity Framework Core &amp; LINQ</text>
+  <text x="485" y="220" fill="#94a3b8" font-family="'Inter', sans-serif" font-size="10">Generic repository pattern with unit of work &amp; migrations</text>
+
+  <rect x="420" y="258" width="310" height="74" rx="8" fill="#1e293b" fill-opacity="0.5" stroke="rgba(255,255,255,0.06)" />
+  <rect x="435" y="273" width="36" height="36" rx="6" fill="#8b5cf6" fill-opacity="0.25" />
+  <text x="453" y="296" fill="#c084fc" font-family="'Inter', sans-serif" font-size="13" text-anchor="middle">🛡️</text>
+  <text x="485" y="286" fill="#f8fafc" font-family="'Outfit', sans-serif" font-size="13" font-weight="600">FluentValidation &amp; Global Errors</text>
+  <text x="485" y="304" fill="#94a3b8" font-family="'Inter', sans-serif" font-size="10">Centralized middleware, RFC-7807 problem details</text>
+
+  <rect x="420" y="342" width="310" height="74" rx="8" fill="#1e293b" fill-opacity="0.5" stroke="rgba(255,255,255,0.06)" />
+  <rect x="435" y="357" width="36" height="36" rx="6" fill="#f59e0b" fill-opacity="0.25" />
+  <text x="453" y="380" fill="#fbbf24" font-family="'Inter', sans-serif" font-size="13" text-anchor="middle">🐳</text>
+  <text x="485" y="370" fill="#f8fafc" font-family="'Outfit', sans-serif" font-size="13" font-weight="600">Docker &amp; CI/CD Integration</text>
+  <text x="485" y="388" fill="#94a3b8" font-family="'Inter', sans-serif" font-size="10">Multi-stage Dockerfiles with automated GitHub Actions</text>
+</svg>

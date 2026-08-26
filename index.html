@@ -1,0 +1,1331 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Primary Meta Tags -->
+  <title>Dasun Mendis | Lead Developer & Software Consultant (.NET / Full-Stack)</title>
+  <meta name="title" content="Dasun Mendis | Lead Developer & Software Consultant">
+  <meta name="description"
+    content="Portfolio of Dasun Mendis - Lead Developer & Software Consultant specializing in .NET Core, Angular, React, Clean Architecture, and Scalable Enterprise Systems.">
+  <meta name="keywords"
+    content="Dasun Mendis, Software Engineer, Lead Developer, .NET Core, C#, Angular, React, ASP.NET MVC, Sri Lanka, Colombo, Software Consultant, Clean Architecture, SQL Server">
+  <meta name="author" content="Dasun Mendis">
+  <meta name="robots" content="index, follow">
+
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://dasunmendis.github.io/">
+  <meta property="og:title" content="Dasun Mendis | Lead Developer & Software Consultant">
+  <meta property="og:description"
+    content="Explore projects, technical skills, and enterprise consulting experience of Dasun Mendis (.NET Core, Angular, React, Architecture).">
+  <meta property="og:image" content="https://raw.githubusercontent.com/dasunmendis/dasunmendis/main/images/dasun.png">
+
+  <!-- Twitter -->
+  <meta property="twitter:card" content="summary_large_image">
+  <meta property="twitter:url" content="https://dasunmendis.github.io/">
+  <meta property="twitter:title" content="Dasun Mendis | Lead Developer & Software Consultant">
+  <meta property="twitter:description"
+    content="Explore projects, technical skills, and enterprise consulting experience of Dasun Mendis (.NET Core, Angular, React, Architecture).">
+  <meta property="twitter:image"
+    content="https://raw.githubusercontent.com/dasunmendis/dasunmendis/main/images/dasun.png">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+
+  <!-- Google Fonts: Outfit & Inter -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap"
+    rel="stylesheet">
+
+  <!-- FontAwesome 6 for Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+
+  <!-- Main Stylesheet -->
+  <link rel="stylesheet" href="style.css">
+
+  <!-- JSON-LD Structured Data for Google Rich Snippets -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Dasun Mendis",
+    "jobTitle": "Lead Developer & Software Consultant",
+    "url": "https://dasunmendis.github.io",
+    "image": "https://raw.githubusercontent.com/dasunmendis/dasunmendis/main/images/dasun.png",
+    "sameAs": [
+      "https://github.com/dasunmendis",
+      "https://www.linkedin.com/in/dasun-mendis/",
+      "https://www.facebook.com/dasunmendis/"
+    ],
+    "knowsAbout": [
+      ".NET Core",
+      "C#",
+      "Angular",
+      "React",
+      "Clean Architecture",
+      "Microsoft SQL Server",
+      "Microservices",
+      "ASP.NET MVC"
+    ]
+  }
+  </script>
+</head>
+
+<body>
+
+  <!-- Ambient Glowing Backdrops -->
+  <div class="bg-ambient-glow glow-top-right" aria-hidden="true"></div>
+  <div class="bg-ambient-glow glow-bottom-left" aria-hidden="true"></div>
+  <div class="bg-ambient-glow glow-center" aria-hidden="true"></div>
+  <div class="bg-grid-pattern" aria-hidden="true"></div>
+
+  <!-- Main Navigation Header -->
+  <header class="main-header" id="main-header">
+    <div class="header-container">
+      <a href="#home" class="logo" aria-label="Dasun Mendis Portfolio">
+        <span class="logo-bracket">&lt;</span>Dasun<span>Mendis</span><span class="logo-bracket">/&gt;</span>
+      </a>
+
+      <!-- Desktop Navigation Menu -->
+      <nav class="nav-menu" id="nav-menu" aria-label="Main Navigation">
+        <ul>
+          <li><a href="#home" class="nav-link active">Home</a></li>
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#skills" class="nav-link">Skills</a></li>
+          <li><a href="#experience" class="nav-link">Experience</a></li>
+          <li><a href="#projects" class="nav-link">Projects</a></li>
+          <li><a href="#education" class="nav-link">Education</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+
+      <!-- Action Button & Mobile Toggle -->
+      <div class="header-actions">
+        <a href="#contact" class="btn btn-gradient btn-sm">
+          <span>Let's Talk</span>
+          <i class="fa-solid fa-arrow-right"></i>
+        </a>
+        <button class="mobile-toggle" id="mobile-toggle" aria-label="Toggle navigation menu" aria-expanded="false">
+          <i class="fa-solid fa-bars" id="toggle-icon"></i>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Main Content Wrapper -->
+  <main id="main-content">
+
+    <!-- 1. Hero Section -->
+    <section class="hero-section" id="home">
+      <div class="section-container">
+        <div class="hero-grid">
+
+          <!-- Hero Text Content -->
+          <div class="hero-content">
+            <div class="hero-badge-wrapper">
+              <div class="hero-status-pill">
+                <span class="status-indicator-dot"></span>
+                <span>Available for Consulting &amp; Technical Leadership</span>
+              </div>
+            </div>
+
+            <h1 class="hero-title">
+              Hi, I'm <span class="text-gradient">Dasun Mendis</span>
+            </h1>
+
+            <div class="hero-role-wrapper">
+              <span>I build as a</span>
+              <span class="typed-role" id="typed-role">Lead Developer</span>
+              <span class="typed-cursor" aria-hidden="true"></span>
+            </div>
+
+            <p class="hero-description">
+              Senior lead engineer and consultant with <strong>14+ years of enterprise experience</strong> architecting
+              resilient
+              <strong>.NET Core microservices</strong>, <strong>Clean Architecture</strong> backends, and modern
+              <strong>Angular &amp; React</strong> web applications. Dedicated to building high-throughput, secure, and
+              maintainable software systems.
+            </p>
+
+            <div class="hero-cta-group">
+              <a href="#projects" class="btn btn-gradient">
+                <span>View Featured Projects</span>
+                <i class="fa-solid fa-layer-group"></i>
+              </a>
+              <a href="#contact" class="btn btn-outline">
+                <span>Get in Touch</span>
+                <i class="fa-solid fa-envelope"></i>
+              </a>
+            </div>
+
+            <div class="hero-socials">
+              <a href="https://github.com/dasunmendis" target="_blank" rel="noopener noreferrer" class="social-icon-btn"
+                aria-label="Dasun Mendis GitHub Profile">
+                <i class="fa-brands fa-github"></i>
+              </a>
+              <a href="https://www.linkedin.com/in/dasun-mendis/" target="_blank" rel="noopener noreferrer"
+                class="social-icon-btn" aria-label="Dasun Mendis LinkedIn Profile">
+                <i class="fa-brands fa-linkedin-in"></i>
+              </a>
+              <a href="https://www.facebook.com/dasunmendis/" target="_blank" rel="noopener noreferrer"
+                class="social-icon-btn" aria-label="Dasun Mendis Facebook Profile">
+                <i class="fa-brands fa-facebook-f"></i>
+              </a>
+              <a href="mailto:dasunmendis@gmail.com" class="social-icon-btn" aria-label="Send email to Dasun Mendis">
+                <i class="fa-solid fa-at"></i>
+              </a>
+            </div>
+          </div>
+
+          <!-- Hero Visual: Avatar Glass Card -->
+          <div class="hero-visual">
+            <div class="avatar-card-container">
+              <div class="avatar-backdrop-glow" aria-hidden="true"></div>
+
+              <div class="avatar-card glass-panel">
+                <div class="avatar-img-wrapper">
+                  <img src="assets/dasun.png" alt="Dasun Mendis - Lead Developer & Software Consultant"
+                    class="avatar-img" onerror="this.src='https://avatars.githubusercontent.com/u/7993145?v=4'">
+                </div>
+                <div class="avatar-caption">
+                  <h2 class="avatar-name">Dasun Mendis</h2>
+                  <p class="avatar-title">Lead Developer &amp; Consultant</p>
+                </div>
+
+                <!-- Floating Tech Badges -->
+                <div class="floating-tech-pill pill-net">
+                  <i class="fa-solid fa-cube text-purple"></i>
+                  <span>.NET Core 8/9</span>
+                </div>
+                <div class="floating-tech-pill pill-angular">
+                  <i class="fa-brands fa-angular text-cyan"></i>
+                  <span>Angular &amp; React</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- Stats Counter Bar -->
+        <div class="hero-stats-bar glass-panel" id="stats-bar">
+          <div class="stat-item">
+            <div class="stat-number" data-target="8">8+</div>
+            <div class="stat-label">Years Experience</div>
+          </div>
+          <div class="stat-item">
+            <div class="stat-number" data-target="25">25+</div>
+            <div class="stat-label">Enterprise Deliveries</div>
+          </div>
+          <div class="stat-item">
+            <div class="stat-number" data-target="100">100%</div>
+            <div class="stat-label">Clean Architecture Focus</div>
+          </div>
+          <div class="stat-item">
+            <div class="stat-number" data-target="99">99.9%</div>
+            <div class="stat-label">High-Availability Uptime</div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- 2. About Section -->
+    <section class="about-section" id="about">
+      <div class="section-container">
+
+        <div class="section-header">
+          <span class="section-tag"><i class="fa-solid fa-user-tie"></i> Profile</span>
+          <h2 class="section-title">About Me</h2>
+          <p class="section-subtitle">Bridging complex business domains with clean, high-performance software
+            engineering.</p>
+          <div class="title-bar"></div>
+        </div>
+
+        <div class="about-grid">
+
+          <!-- Narrative Box -->
+          <div class="about-narrative glass-panel">
+            <h3>Engineering Scalable Solutions with Passion &amp; Precision</h3>
+            <p>
+              I am a dedicated <strong>Lead Developer and Software Consultant</strong> based in Colombo, Sri Lanka. With
+              over 8 years in the software industry, I specialize in crafting robust backend architectures, distributed
+              web APIs, and responsive, interactive frontend experiences.
+            </p>
+            <p>
+              My expertise spans the entire development lifecycle: from domain-driven analysis and database optimization
+              to building enterprise-grade microservices and multi-tenant systems. I am a strong advocate of
+              <strong>Clean Architecture</strong>, SOLID design principles, and automated CI/CD practices.
+            </p>
+            <p>
+              Whether consulting for established enterprises, mentoring agile teams, or building mission-critical
+              business platforms from scratch, I focus on delivering scalable, maintainable, and high-performance
+              software.
+            </p>
+
+            <div class="about-highlight-box">
+              <i class="fa-solid fa-quote-left text-cyan"></i>
+              "Clean code isn't just about syntax; it's about building resilient systems that evolve seamlessly with
+              business growth."
+            </div>
+          </div>
+
+          <!-- Feature Pillars Cards -->
+          <div class="about-features-grid">
+
+            <div class="feature-card glass-panel">
+              <div class="feature-icon-box">
+                <i class="fa-solid fa-cubes"></i>
+              </div>
+              <h4>Clean Architecture</h4>
+              <p>Structuring solutions with CQRS, MediatR, domain separation, and modular decoupling for long-term
+                maintainability.</p>
+            </div>
+
+            <div class="feature-card glass-panel">
+              <div class="feature-icon-box purple">
+                <i class="fa-solid fa-server"></i>
+              </div>
+              <h4>.NET Core &amp; Microservices</h4>
+              <p>Designing high-throughput RESTful Web APIs, asynchronous message workers, and secure JWT/OAuth2 flows.
+              </p>
+            </div>
+
+            <div class="feature-card glass-panel">
+              <div class="feature-icon-box green">
+                <i class="fa-solid fa-database"></i>
+              </div>
+              <h4>Database Optimization</h4>
+              <p>Architecting MS SQL Server and PostgreSQL schemas, optimizing complex queries, indexing, and LINQ
+                performance.</p>
+            </div>
+
+            <div class="feature-card glass-panel">
+              <div class="feature-icon-box blue">
+                <i class="fa-solid fa-laptop-code"></i>
+              </div>
+              <h4>Modern Frontends</h4>
+              <p>Building reactive, accessible SPAs using Angular, TypeScript, ReactJS, Telerik UI, and modern CSS
+                architecture.</p>
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- 3. Skills Matrix Section -->
+    <section class="skills-section" id="skills">
+      <div class="section-container">
+
+        <div class="section-header">
+          <span class="section-tag"><i class="fa-solid fa-microchip"></i> Expertise</span>
+          <h2 class="section-title">Technical Skills Matrix</h2>
+          <p class="section-subtitle">A battle-tested technology stack spanning backend, frontend, databases, and
+            DevOps.</p>
+          <div class="title-bar"></div>
+        </div>
+
+        <div class="skills-matrix-grid">
+
+          <!-- Category 1: Languages & Core -->
+          <div class="skill-category-card glass-panel">
+            <div class="category-header">
+              <i class="fa-solid fa-code category-icon"></i>
+              <h3>Languages &amp; Core</h3>
+            </div>
+            <div class="skill-badges-container">
+              <span class="skill-badge"><i class="fa-solid fa-hashtag text-purple"></i> C# (.NET)</span>
+              <span class="skill-badge"><i class="fa-brands fa-js text-yellow"></i> TypeScript</span>
+              <span class="skill-badge"><i class="fa-brands fa-square-js text-yellow"></i> JavaScript ES6+</span>
+              <span class="skill-badge"><i class="fa-solid fa-file-code text-blue"></i> VB.NET</span>
+              <span class="skill-badge"><i class="fa-brands fa-html5 text-orange"></i> HTML5 &amp; CSS3</span>
+              <span class="skill-badge"><i class="fa-brands fa-python text-green"></i> Python</span>
+            </div>
+          </div>
+
+          <!-- Category 2: Backend & Frameworks -->
+          <div class="skill-category-card glass-panel">
+            <div class="category-header">
+              <i class="fa-solid fa-server category-icon"></i>
+              <h3>Backend &amp; APIs</h3>
+            </div>
+            <div class="skill-badges-container">
+              <span class="skill-badge"><i class="fa-solid fa-cube text-purple"></i> .NET Core 6/7/8/9</span>
+              <span class="skill-badge"><i class="fa-solid fa-network-wired text-cyan"></i> ASP.NET Web API</span>
+              <span class="skill-badge"><i class="fa-solid fa-window-restore text-blue"></i> ASP.NET MVC</span>
+              <span class="skill-badge"><i class="fa-solid fa-link text-green"></i> Entity Framework Core</span>
+              <span class="skill-badge"><i class="fa-solid fa-filter text-orange"></i> LINQ &amp; Dapper</span>
+              <span class="skill-badge"><i class="fa-solid fa-shield-halved text-red"></i> JWT &amp; Identity
+                Auth</span>
+            </div>
+          </div>
+
+          <!-- Category 3: Frontend & UI -->
+          <div class="skill-category-card glass-panel">
+            <div class="category-header">
+              <i class="fa-solid fa-desktop category-icon"></i>
+              <h3>Frontend &amp; UI</h3>
+            </div>
+            <div class="skill-badges-container">
+              <span class="skill-badge"><i class="fa-brands fa-angular text-red"></i> Angular (14+)</span>
+              <span class="skill-badge"><i class="fa-brands fa-react text-cyan"></i> ReactJS</span>
+              <span class="skill-badge"><i class="fa-solid fa-table-cells text-green"></i> Telerik / Kendo UI</span>
+              <span class="skill-badge"><i class="fa-brands fa-css3-alt text-blue"></i> Tailwind CSS</span>
+              <span class="skill-badge"><i class="fa-brands fa-bootstrap text-purple"></i> Bootstrap 5</span>
+              <span class="skill-badge"><i class="fa-solid fa-bolt text-yellow"></i> htmx &amp; RxJS</span>
+            </div>
+          </div>
+
+          <!-- Category 4: Databases & Storage -->
+          <div class="skill-category-card glass-panel">
+            <div class="category-header">
+              <i class="fa-solid fa-database category-icon"></i>
+              <h3>Databases &amp; Storage</h3>
+            </div>
+            <div class="skill-badges-container">
+              <span class="skill-badge"><i class="fa-solid fa-server text-blue"></i> MS SQL Server</span>
+              <span class="skill-badge"><i class="fa-solid fa-database text-cyan"></i> PostgreSQL</span>
+              <span class="skill-badge"><i class="fa-solid fa-table text-orange"></i> MySQL</span>
+              <span class="skill-badge"><i class="fa-solid fa-memory text-red"></i> Redis Cache</span>
+              <span class="skill-badge"><i class="fa-solid fa-diagram-project text-green"></i> Schema
+                Optimization</span>
+              <span class="skill-badge"><i class="fa-solid fa-gears text-yellow"></i> Stored Procedures</span>
+            </div>
+          </div>
+
+          <!-- Category 5: DevOps, Cloud & Tools -->
+          <div class="skill-category-card glass-panel">
+            <div class="category-header">
+              <i class="fa-solid fa-cloud-arrow-up category-icon"></i>
+              <h3>DevOps &amp; Cloud</h3>
+            </div>
+            <div class="skill-badges-container">
+              <span class="skill-badge"><i class="fa-brands fa-docker text-blue"></i> Docker</span>
+              <span class="skill-badge"><i class="fa-brands fa-microsoft text-cyan"></i> Azure DevOps</span>
+              <span class="skill-badge"><i class="fa-solid fa-infinity text-green"></i> CI/CD Pipelines</span>
+              <span class="skill-badge"><i class="fa-brands fa-git-alt text-orange"></i> Git &amp; GitHub</span>
+              <span class="skill-badge"><i class="fa-solid fa-cubes-stacked text-blue"></i> Kubernetes</span>
+              <span class="skill-badge"><i class="fa-solid fa-file-lines text-yellow"></i> Swagger / Postman</span>
+            </div>
+          </div>
+
+          <!-- Category 6: Architecture & Practices -->
+          <div class="skill-category-card glass-panel">
+            <div class="category-header">
+              <i class="fa-solid fa-sitemap category-icon"></i>
+              <h3>Architecture &amp; Practices</h3>
+            </div>
+            <div class="skill-badges-container">
+              <span class="skill-badge"><i class="fa-solid fa-layer-group text-cyan"></i> Clean Architecture</span>
+              <span class="skill-badge"><i class="fa-solid fa-arrows-split-up-and-left text-purple"></i> CQRS &amp;
+                MediatR</span>
+              <span class="skill-badge"><i class="fa-solid fa-boxes-stacked text-green"></i> Repository Pattern</span>
+              <span class="skill-badge"><i class="fa-solid fa-check-double text-blue"></i> SOLID Principles</span>
+              <span class="skill-badge"><i class="fa-solid fa-vial-circle-check text-yellow"></i> Unit &amp; Integration
+                Tests</span>
+              <span class="skill-badge"><i class="fa-solid fa-people-group text-orange"></i> Agile / Scrum Lead</span>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- 4. Experience Timeline Section -->
+    <section class="experience-section" id="experience">
+      <div class="section-container">
+
+        <div class="section-header">
+          <span class="section-tag"><i class="fa-solid fa-briefcase"></i> Career Journey</span>
+          <h2 class="section-title">Work Experience</h2>
+          <p class="section-subtitle">Track record of technical leadership and enterprise software delivery.</p>
+          <div class="title-bar"></div>
+        </div>
+
+        <div class="timeline-wrapper">
+          <div class="timeline-line"></div>
+
+          <!-- Milestone 1 -->
+          <div class="timeline-item">
+            <div class="timeline-node"></div>
+            <div class="timeline-card glass-panel">
+              <div class="timeline-header">
+                <div class="role-info">
+                  <h3>Lead Developer &amp; Software Consultant</h3>
+                  <div class="company-name">
+                    <i class="fa-solid fa-building"></i>
+                    <span>Freelance &amp; Enterprise Software Consulting</span>
+                  </div>
+                </div>
+                <span class="timeline-period">2022 — Present</span>
+              </div>
+              <ul class="timeline-achievements">
+                <li>Architected scalable SaaS web applications and enterprise platforms using .NET Core, Angular, and MS
+                  SQL Server.</li>
+                <li>Provided high-level technical consulting for legacy system modernization, guiding teams on Clean
+                  Architecture and CQRS adoption.</li>
+                <li>Engineered high-performance database indexing and query tuning strategies, reducing query latency by
+                  up to 40%.</li>
+                <li>Designed multi-tenant authentication, RBAC authorization, and automated CI/CD deployment pipelines
+                  on Azure DevOps and Docker.</li>
+              </ul>
+              <div class="timeline-tech-stack">
+                <span class="tech-tag">.NET Core 8</span>
+                <span class="tech-tag">C#</span>
+                <span class="tech-tag">Angular</span>
+                <span class="tech-tag">Clean Architecture</span>
+                <span class="tech-tag">MS SQL Server</span>
+                <span class="tech-tag">Docker</span>
+                <span class="tech-tag">Azure DevOps</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Milestone 2 -->
+          <div class="timeline-item">
+            <div class="timeline-node"></div>
+            <div class="timeline-card glass-panel">
+              <div class="timeline-header">
+                <div class="role-info">
+                  <h3>Senior Software Engineer</h3>
+                  <div class="company-name">
+                    <i class="fa-solid fa-building"></i>
+                    <span>Datamtx LLC &amp; V2K Network</span>
+                  </div>
+                </div>
+                <span class="timeline-period">2018 — 2022</span>
+              </div>
+              <ul class="timeline-achievements">
+                <li>Led full-stack engineering initiatives for international commercial clients, delivering scalable web
+                  APIs and single-page applications.</li>
+                <li>Implemented core transaction processing modules, payment gateway integrations, and real-time
+                  operational dashboards.</li>
+                <li>Mentored junior and mid-level software engineers on test-driven development, code reviews, and
+                  architectural patterns.</li>
+                <li>Optimized Entity Framework Core queries and caching layers with Redis, significantly reducing server
+                  memory footprint.</li>
+              </ul>
+              <div class="timeline-tech-stack">
+                <span class="tech-tag">ASP.NET Web API</span>
+                <span class="tech-tag">C#</span>
+                <span class="tech-tag">AngularJS / Angular</span>
+                <span class="tech-tag">Redis</span>
+                <span class="tech-tag">Entity Framework</span>
+                <span class="tech-tag">PostgreSQL</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Milestone 3 -->
+          <div class="timeline-item">
+            <div class="timeline-node"></div>
+            <div class="timeline-card glass-panel">
+              <div class="timeline-header">
+                <div class="role-info">
+                  <h3>Software Engineer &amp; Full-Stack Developer</h3>
+                  <div class="company-name">
+                    <i class="fa-solid fa-building"></i>
+                    <span>Quest ION IT (HK) &amp; Enterprise Solutions</span>
+                  </div>
+                </div>
+                <span class="timeline-period">2015 — 2018</span>
+              </div>
+              <ul class="timeline-achievements">
+                <li>Developed bespoke enterprise web applications using ASP.NET MVC, C#, and Telerik UI / Kendo UI
+                  components.</li>
+                <li>Designed normalized relational database schemas, complex stored procedures, triggers, and scheduled
+                  SQL agent jobs.</li>
+                <li>Collaborated closely with cross-functional product teams to deliver Point of Sale (POS) and
+                  inventory management software.</li>
+              </ul>
+              <div class="timeline-tech-stack">
+                <span class="tech-tag">ASP.NET MVC</span>
+                <span class="tech-tag">C#</span>
+                <span class="tech-tag">Telerik UI</span>
+                <span class="tech-tag">MS SQL Server</span>
+                <span class="tech-tag">JavaScript</span>
+                <span class="tech-tag">Bootstrap</span>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- 5. Featured Projects Section -->
+    <section class="projects-section" id="projects">
+      <div class="section-container">
+
+        <div class="section-header">
+          <span class="section-tag"><i class="fa-solid fa-code-branch"></i> Portfolio</span>
+          <h2 class="section-title">Featured Projects</h2>
+          <p class="section-subtitle">Real-world applications, open-source repositories, and enterprise architectural
+            implementations.</p>
+          <div class="title-bar"></div>
+        </div>
+
+        <!-- Category Filter Tabs -->
+        <div class="projects-filter-bar" role="tablist">
+          <button class="filter-btn active" data-filter="all">All Projects (5)</button>
+          <button class="filter-btn" data-filter="dotnet">.NET &amp; Backend</button>
+          <button class="filter-btn" data-filter="angular">Angular &amp; Frontend</button>
+          <button class="filter-btn" data-filter="enterprise">Enterprise &amp; POS</button>
+        </div>
+
+        <!-- Projects Grid -->
+        <div class="projects-grid" id="projects-grid">
+
+          <!-- Project 1: SoftOne Task Manager -->
+          <article class="project-card glass-panel" data-category="dotnet angular enterprise">
+            <div class="project-img-wrapper">
+              <img src="assets/projects/softone-taskmanager.svg" alt="SoftOne Task Manager Frontend and Backend">
+              <div class="project-overlay">
+                <button class="btn btn-gradient btn-sm project-overlay-btn open-modal-btn" data-modal="modal-softone">
+                  <i class="fa-solid fa-circle-info"></i> Details
+                </button>
+                <a href="https://github.com/dasunmendis/SoftOne_TaskManager_FrontEnd" target="_blank"
+                  rel="noopener noreferrer" class="btn btn-outline btn-sm project-overlay-btn">
+                  <i class="fa-brands fa-github"></i> Code
+                </a>
+              </div>
+            </div>
+            <div class="project-content">
+              <span class="project-category-tag">Full-Stack Enterprise</span>
+              <h3 class="project-title">SoftOne Task Manager</h3>
+              <p class="project-description">
+                Comprehensive full-stack task and sprint management system featuring an Angular TypeScript SPA client
+                paired with a high-performance .NET Core Web API backend.
+              </p>
+              <div class="project-highlights">
+                <strong>Key Architectural Highlights:</strong>
+                <ul>
+                  <li>Decoupled RESTful API with JWT token security.</li>
+                  <li>Responsive Angular Kanban board with real-time UI state.</li>
+                  <li>Clean repository pattern and EF Core data mapping.</li>
+                </ul>
+              </div>
+              <div class="project-footer">
+                <div class="project-tags">
+                  <span class="tech-tag">.NET Core</span>
+                  <span class="tech-tag">Angular</span>
+                  <span class="tech-tag">TypeScript</span>
+                  <span class="tech-tag">C#</span>
+                </div>
+                <div class="project-actions">
+                  <a href="https://github.com/dasunmendis/SoftOne_TaskManager_BackEnd" target="_blank"
+                    rel="noopener noreferrer" class="project-icon-link" title="Backend Repo">
+                    <i class="fa-solid fa-server"></i>
+                  </a>
+                  <a href="https://github.com/dasunmendis/SoftOne_TaskManager_FrontEnd" target="_blank"
+                    rel="noopener noreferrer" class="project-icon-link" title="Frontend Repo">
+                    <i class="fa-brands fa-angular"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 2: Enterprise POS Suite -->
+          <article class="project-card glass-panel" data-category="dotnet enterprise">
+            <div class="project-img-wrapper">
+              <img src="assets/projects/pos-system.svg" alt="Point of Sale Web Based Solution">
+              <div class="project-overlay">
+                <button class="btn btn-gradient btn-sm project-overlay-btn open-modal-btn" data-modal="modal-pos">
+                  <i class="fa-solid fa-circle-info"></i> Details
+                </button>
+                <a href="https://github.com/dasunmendis/POS_TEST" target="_blank" rel="noopener noreferrer"
+                  class="btn btn-outline btn-sm project-overlay-btn">
+                  <i class="fa-brands fa-github"></i> Code
+                </a>
+              </div>
+            </div>
+            <div class="project-content">
+              <span class="project-category-tag">Enterprise Retail</span>
+              <h3 class="project-title">Cloud Point of Sale (POS) Suite</h3>
+              <p class="project-description">
+                A robust, web-based Point of Sale and inventory tracking solution engineered for multi-terminal retail
+                environments with fast barcode scanning and automated billing.
+              </p>
+              <div class="project-highlights">
+                <strong>Key Architectural Highlights:</strong>
+                <ul>
+                  <li>Optimized MS SQL Server transactional consistency.</li>
+                  <li>Real-time stock deduction and low-inventory telemetry.</li>
+                  <li>Fast checkout receipt generation and daily audit metrics.</li>
+                </ul>
+              </div>
+              <div class="project-footer">
+                <div class="project-tags">
+                  <span class="tech-tag">C# .NET</span>
+                  <span class="tech-tag">MS SQL Server</span>
+                  <span class="tech-tag">ASP.NET</span>
+                  <span class="tech-tag">POS Workflows</span>
+                </div>
+                <div class="project-actions">
+                  <a href="https://github.com/dasunmendis/POS_TEST" target="_blank" rel="noopener noreferrer"
+                    class="project-icon-link" title="GitHub Repository">
+                    <i class="fa-brands fa-github"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 3: SITS Identity & User App -->
+          <article class="project-card glass-panel" data-category="dotnet angular enterprise">
+            <div class="project-img-wrapper">
+              <img src="assets/projects/sits-identity.svg" alt="SITS User Identity and Access Suite">
+              <div class="project-overlay">
+                <button class="btn btn-gradient btn-sm project-overlay-btn open-modal-btn" data-modal="modal-sits">
+                  <i class="fa-solid fa-circle-info"></i> Details
+                </button>
+                <a href="https://github.com/dasunmendis/SITS_APP" target="_blank" rel="noopener noreferrer"
+                  class="btn btn-outline btn-sm project-overlay-btn">
+                  <i class="fa-brands fa-github"></i> Code
+                </a>
+              </div>
+            </div>
+            <div class="project-content">
+              <span class="project-category-tag">Identity &amp; Security</span>
+              <h3 class="project-title">SITS Identity &amp; User Access App</h3>
+              <p class="project-description">
+                Secure enterprise identity and user-management platform delivering role-based access control (RBAC),
+                multi-factor auth integrations, and profile governance.
+              </p>
+              <div class="project-highlights">
+                <strong>Key Architectural Highlights:</strong>
+                <ul>
+                  <li>.NET Core API with granular permission claim filters.</li>
+                  <li>Angular client with route guards and reactive auth states.</li>
+                  <li>Complete audit log tracking and secure credential storage.</li>
+                </ul>
+              </div>
+              <div class="project-footer">
+                <div class="project-tags">
+                  <span class="tech-tag">.NET Core API</span>
+                  <span class="tech-tag">Angular</span>
+                  <span class="tech-tag">JWT</span>
+                  <span class="tech-tag">Security</span>
+                </div>
+                <div class="project-actions">
+                  <a href="https://github.com/dasunmendis/SITS_API" target="_blank" rel="noopener noreferrer"
+                    class="project-icon-link" title="Backend API">
+                    <i class="fa-solid fa-server"></i>
+                  </a>
+                  <a href="https://github.com/dasunmendis/SITS_APP" target="_blank" rel="noopener noreferrer"
+                    class="project-icon-link" title="Frontend Client">
+                    <i class="fa-brands fa-angular"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 4: Telerik MVC Portal -->
+          <article class="project-card glass-panel" data-category="dotnet enterprise">
+            <div class="project-img-wrapper">
+              <img src="assets/projects/telerik-mvc.svg" alt="Telerik MVC Data Analytics Portal">
+              <div class="project-overlay">
+                <button class="btn btn-gradient btn-sm project-overlay-btn open-modal-btn" data-modal="modal-telerik">
+                  <i class="fa-solid fa-circle-info"></i> Details
+                </button>
+                <a href="https://github.com/dasunmendis/TelerikMVC" target="_blank" rel="noopener noreferrer"
+                  class="btn btn-outline btn-sm project-overlay-btn">
+                  <i class="fa-brands fa-github"></i> Code
+                </a>
+              </div>
+            </div>
+            <div class="project-content">
+              <span class="project-category-tag">Enterprise Analytics</span>
+              <h3 class="project-title">Telerik MVC Data Analytics Portal</h3>
+              <p class="project-description">
+                Interactive business intelligence reporting portal built on ASP.NET MVC architecture, integrating
+                advanced Telerik Kendo UI grid widgets and charting controls.
+              </p>
+              <div class="project-highlights">
+                <strong>Key Architectural Highlights:</strong>
+                <ul>
+                  <li>Server-side pagination and multi-column dynamic sorting.</li>
+                  <li>Interactive visualization charts and custom Excel/PDF exports.</li>
+                  <li>Optimized MVC controller action filters for performance.</li>
+                </ul>
+              </div>
+              <div class="project-footer">
+                <div class="project-tags">
+                  <span class="tech-tag">ASP.NET MVC</span>
+                  <span class="tech-tag">Telerik UI</span>
+                  <span class="tech-tag">C#</span>
+                  <span class="tech-tag">Data Grids</span>
+                </div>
+                <div class="project-actions">
+                  <a href="https://github.com/dasunmendis/TelerikMVC" target="_blank" rel="noopener noreferrer"
+                    class="project-icon-link" title="GitHub Repository">
+                    <i class="fa-brands fa-github"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 5: Clean Architecture Reference Suite -->
+          <article class="project-card glass-panel" data-category="dotnet">
+            <div class="project-img-wrapper">
+              <img src="assets/projects/clean-architecture.svg" alt="ASP.NET MVC Clean Architecture Suite">
+              <div class="project-overlay">
+                <button class="btn btn-gradient btn-sm project-overlay-btn open-modal-btn" data-modal="modal-cleanarch">
+                  <i class="fa-solid fa-circle-info"></i> Details
+                </button>
+                <a href="https://github.com/dasunmendis/ASP.Net-MVC-Sample" target="_blank" rel="noopener noreferrer"
+                  class="btn btn-outline btn-sm project-overlay-btn">
+                  <i class="fa-brands fa-github"></i> Code
+                </a>
+              </div>
+            </div>
+            <div class="project-content">
+              <span class="project-category-tag">Architecture &amp; Design</span>
+              <h3 class="project-title">Clean Architecture Reference Suite</h3>
+              <p class="project-description">
+                Production-ready reference architecture showcasing design patterns, dependency injection containers, and
+                best practices across the .NET development lifecycle.
+              </p>
+              <div class="project-highlights">
+                <strong>Key Architectural Highlights:</strong>
+                <ul>
+                  <li>Domain-centric isolation with decoupled application layers.</li>
+                  <li>Generic repository pattern with unit of work and transactions.</li>
+                  <li>Centralized global exception handling &amp; validation pipelines.</li>
+                </ul>
+              </div>
+              <div class="project-footer">
+                <div class="project-tags">
+                  <span class="tech-tag">Clean Architecture</span>
+                  <span class="tech-tag">C# .NET</span>
+                  <span class="tech-tag">CQRS</span>
+                  <span class="tech-tag">EF Core</span>
+                </div>
+                <div class="project-actions">
+                  <a href="https://github.com/dasunmendis/ASP.Net-MVC-Sample" target="_blank" rel="noopener noreferrer"
+                    class="project-icon-link" title="GitHub Repository">
+                    <i class="fa-brands fa-github"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </article>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- 6. Education & Credentials Section -->
+    <section class="education-section" id="education">
+      <div class="section-container">
+
+        <div class="section-header">
+          <span class="section-tag"><i class="fa-solid fa-graduation-cap"></i> Credentials</span>
+          <h2 class="section-title">Education &amp; Community</h2>
+          <p class="section-subtitle">Academic foundations and continuous professional excellence.</p>
+          <div class="title-bar"></div>
+        </div>
+
+        <div class="edu-grid">
+
+          <!-- Education Column -->
+          <div class="edu-column">
+            <h3 class="edu-column-title">
+              <i class="fa-solid fa-university"></i>
+              <span>Academic Background</span>
+            </h3>
+
+            <div class="edu-cards-list">
+
+              <div class="edu-card glass-panel">
+                <span class="edu-year-badge">Degree</span>
+                <h3>BSc (Hons) in Computer Science &amp; Software Engineering</h3>
+                <h4>University of Bedfordshire</h4>
+                <p class="edu-desc">
+                  Focused on software engineering fundamentals, database systems, object-oriented design, algorithms,
+                  and distributed enterprise systems.
+                </p>
+              </div>
+
+              <div class="edu-card glass-panel">
+                <span class="edu-year-badge">Continuous Learning</span>
+                <h3>Advanced .NET Core &amp; Cloud Native Architecture</h3>
+                <h4>Specialized Certifications &amp; Microservices Specialization</h4>
+                <p class="edu-desc">
+                  In-depth continuous specialization covering Clean Architecture in .NET 8/9, Docker container
+                  orchestration, and modern Angular frontend patterns.
+                </p>
+              </div>
+
+            </div>
+          </div>
+
+          <!-- Community & Open Source Column -->
+          <div class="community-column">
+            <h3 class="edu-column-title">
+              <i class="fa-solid fa-heart-circle-check"></i>
+              <span>Open Source &amp; Mentorship</span>
+            </h3>
+
+            <div class="community-cards-list">
+
+              <div class="community-card glass-panel">
+                <div class="community-icon">
+                  <i class="fa-brands fa-github"></i>
+                </div>
+                <div class="community-content">
+                  <h3>GitHub Sponsor &amp; Open Source</h3>
+                  <h4>Active Contributor</h4>
+                  <p>Maintaining public .NET and Angular reference repositories to assist fellow developers in adopting
+                    best practices.</p>
+                </div>
+              </div>
+
+              <div class="community-card glass-panel">
+                <div class="community-icon">
+                  <i class="fa-solid fa-comments"></i>
+                </div>
+                <div class="community-content">
+                  <h3>Technical Mentorship &amp; Discussions</h3>
+                  <h4>Developer Community</h4>
+                  <p>Hosting discussions and providing technical solutions for developer inquiries and architecture
+                    troubleshooting.</p>
+                </div>
+              </div>
+
+              <div class="community-card glass-panel">
+                <div class="community-icon">
+                  <i class="fa-solid fa-code-commit"></i>
+                </div>
+                <div class="community-content">
+                  <h3>Top Sri Lanka Committers</h3>
+                  <h4>Committers Ranking</h4>
+                  <p>Consistently contributing code to public and private enterprise repositories across the island.</p>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- 7. Contact Section -->
+    <section class="contact-section" id="contact">
+      <div class="section-container">
+
+        <div class="section-header">
+          <span class="section-tag"><i class="fa-solid fa-paper-plane"></i> Connect</span>
+          <h2 class="section-title">Get in Touch</h2>
+          <p class="section-subtitle">Have an exciting project, consulting opportunity, or architectural challenge?
+            Let's talk!</p>
+          <div class="title-bar"></div>
+        </div>
+
+        <div class="contact-grid">
+
+          <!-- Contact Info Channels -->
+          <div class="contact-channels">
+
+            <div class="contact-card glass-panel">
+              <div class="contact-icon-box">
+                <i class="fa-solid fa-envelope"></i>
+              </div>
+              <div class="contact-details">
+                <span>Email Address</span>
+                <a href="mailto:dasunmendis@gmail.com">dasunmendis@gmail.com</a>
+              </div>
+            </div>
+
+            <div class="contact-card glass-panel">
+              <div class="contact-icon-box">
+                <i class="fa-solid fa-phone"></i>
+              </div>
+              <div class="contact-details">
+                <span>Direct Phone / WhatsApp</span>
+                <a href="tel:+94775554433">+94 77 555 4433</a>
+              </div>
+            </div>
+
+            <div class="contact-card glass-panel">
+              <div class="contact-icon-box">
+                <i class="fa-solid fa-location-dot"></i>
+              </div>
+              <div class="contact-details">
+                <span>Location</span>
+                <p>Colombo, Sri Lanka (Available Globally / Remote)</p>
+              </div>
+            </div>
+
+            <div class="contact-card glass-panel">
+              <div class="contact-icon-box">
+                <i class="fa-brands fa-linkedin-in"></i>
+              </div>
+              <div class="contact-details">
+                <span>LinkedIn</span>
+                <a href="https://www.linkedin.com/in/dasun-mendis/" target="_blank"
+                  rel="noopener noreferrer">linkedin.com/in/dasun-mendis</a>
+              </div>
+            </div>
+
+            <div class="contact-card glass-panel">
+              <div class="contact-icon-box">
+                <i class="fa-brands fa-github"></i>
+              </div>
+              <div class="contact-details">
+                <span>GitHub</span>
+                <a href="https://github.com/dasunmendis" target="_blank"
+                  rel="noopener noreferrer">github.com/dasunmendis</a>
+              </div>
+            </div>
+
+          </div>
+
+          <!-- Contact Form -->
+          <div class="contact-form-wrapper glass-panel">
+            <h3>Send a Direct Message</h3>
+            <p>Fill in the form below and I'll get back to you promptly.</p>
+
+            <form id="contact-form" class="contact-form" novalidate>
+
+              <div class="form-group">
+                <input type="text" id="name" name="name" class="form-control" placeholder=" " required>
+                <label for="name" class="form-label">Your Name</label>
+              </div>
+
+              <div class="form-group">
+                <input type="email" id="email" name="email" class="form-control" placeholder=" " required>
+                <label for="email" class="form-label">Email Address</label>
+              </div>
+
+              <div class="form-group">
+                <input type="text" id="subject" name="subject" class="form-control" placeholder=" " required>
+                <label for="subject" class="form-label">Subject</label>
+              </div>
+
+              <div class="form-group">
+                <textarea id="message" name="message" class="form-control" rows="5" placeholder=" " required></textarea>
+                <label for="message" class="form-label">Your Message / Project Requirements</label>
+              </div>
+
+              <button type="submit" class="btn btn-gradient btn-submit" id="submit-btn">
+                <span>Send Message</span>
+                <i class="fa-solid fa-paper-plane"></i>
+              </button>
+
+              <div class="form-status" id="form-status"></div>
+            </form>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Main Footer -->
+  <footer class="main-footer">
+    <div class="section-container">
+      <div class="footer-top">
+        <a href="#home" class="logo">
+          <span class="logo-bracket">&lt;</span>Dasun<span>Mendis</span><span class="logo-bracket">/&gt;</span>
+        </a>
+
+        <div class="footer-nav">
+          <a href="#home">Home</a>
+          <a href="#about">About</a>
+          <a href="#skills">Skills</a>
+          <a href="#experience">Experience</a>
+          <a href="#projects">Projects</a>
+          <a href="#education">Education</a>
+          <a href="#contact">Contact</a>
+        </div>
+
+        <div class="hero-socials">
+          <a href="https://github.com/dasunmendis" target="_blank" rel="noopener noreferrer" class="social-icon-btn"
+            aria-label="GitHub">
+            <i class="fa-brands fa-github"></i>
+          </a>
+          <a href="https://www.linkedin.com/in/dasun-mendis/" target="_blank" rel="noopener noreferrer"
+            class="social-icon-btn" aria-label="LinkedIn">
+            <i class="fa-brands fa-linkedin-in"></i>
+          </a>
+          <a href="https://www.facebook.com/dasunmendis/" target="_blank" rel="noopener noreferrer"
+            class="social-icon-btn" aria-label="Facebook">
+            <i class="fa-brands fa-facebook-f"></i>
+          </a>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; 2026 Dasun Mendis. All rights reserved. Crafted with precision for GitHub Pages.</p>
+        <p>Lead Developer &amp; Software Consultant (.NET &amp; Full-Stack)</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Floating Back to Top Button -->
+  <button class="back-to-top" id="back-to-top" aria-label="Scroll back to top">
+    <i class="fa-solid fa-chevron-up"></i>
+  </button>
+
+  <!-- -----------------------------------------------------------------------
+       Project Detail Modals
+       ----------------------------------------------------------------------- -->
+
+  <!-- Modal 1: SoftOne Task Manager -->
+  <div class="modal-overlay" id="modal-softone" role="dialog" aria-modal="true" aria-hidden="true">
+    <div class="modal-card">
+      <button class="modal-close-btn close-modal-btn" aria-label="Close modal">
+        <i class="fa-solid fa-xmark"></i>
+      </button>
+      <div class="modal-img-wrapper">
+        <img src="assets/projects/softone-taskmanager.svg" alt="SoftOne Task Manager Details">
+      </div>
+      <div class="modal-body">
+        <span class="modal-category">Full-Stack Solution</span>
+        <h3 class="modal-title">SoftOne Task Manager</h3>
+        <p class="modal-description">
+          SoftOne Task Manager is a full-featured agile project workflow and sprint tracking application. It bridges a
+          modern TypeScript-driven Angular client with an optimized .NET Core Web API backend.
+        </p>
+
+        <h4 class="modal-section-heading">Architectural Overview</h4>
+        <ul class="modal-list">
+          <li><strong>API Architecture:</strong> Built with ASP.NET Core Web API implementing JWT authentication,
+            dependency injection, and centralized error logging.</li>
+          <li><strong>Frontend:</strong> Angular single-page application with responsive Kanban boards, custom form
+            validation, and reactive RxJS state pipelines.</li>
+          <li><strong>Data Access:</strong> Entity Framework Core with code-first migrations and normalized SQL database
+            schemas.</li>
+        </ul>
+
+        <div class="modal-tech-stack">
+          <span class="tech-tag">.NET Core</span>
+          <span class="tech-tag">C#</span>
+          <span class="tech-tag">Angular</span>
+          <span class="tech-tag">TypeScript</span>
+          <span class="tech-tag">JWT</span>
+          <span class="tech-tag">Entity Framework</span>
+        </div>
+
+        <div class="modal-actions">
+          <a href="https://github.com/dasunmendis/SoftOne_TaskManager_BackEnd" target="_blank" rel="noopener noreferrer"
+            class="btn btn-gradient btn-sm">
+            <i class="fa-brands fa-github"></i> Backend Repository
+          </a>
+          <a href="https://github.com/dasunmendis/SoftOne_TaskManager_FrontEnd" target="_blank"
+            rel="noopener noreferrer" class="btn btn-outline btn-sm">
+            <i class="fa-brands fa-github"></i> Frontend Repository
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal 2: POS Suite -->
+  <div class="modal-overlay" id="modal-pos" role="dialog" aria-modal="true" aria-hidden="true">
+    <div class="modal-card">
+      <button class="modal-close-btn close-modal-btn" aria-label="Close modal">
+        <i class="fa-solid fa-xmark"></i>
+      </button>
+      <div class="modal-img-wrapper">
+        <img src="assets/projects/pos-system.svg" alt="Point of Sale Solution Details">
+      </div>
+      <div class="modal-body">
+        <span class="modal-category">Enterprise POS</span>
+        <h3 class="modal-title">Enterprise Cloud Point of Sale (POS) Suite</h3>
+        <p class="modal-description">
+          A high-reliability retail management platform designed to handle high transaction volumes, multi-register
+          synchronization, inventory movements, and real-time sales reporting.
+        </p>
+
+        <h4 class="modal-section-heading">Key Features &amp; Capabilities</h4>
+        <ul class="modal-list">
+          <li><strong>Fast Checkout Engine:</strong> Rapid barcode scanning, flexible discount rules, tax calculations,
+            and instant receipt generation.</li>
+          <li><strong>Inventory Telemetry:</strong> Automatic stock level adjustments, low-stock threshold triggers, and
+            multi-warehouse support.</li>
+          <li><strong>Database Integrity:</strong> ACID-compliant transaction boundaries in MS SQL Server to prevent
+            concurrent stock overdrafts.</li>
+        </ul>
+
+        <div class="modal-tech-stack">
+          <span class="tech-tag">ASP.NET</span>
+          <span class="tech-tag">C#</span>
+          <span class="tech-tag">MS SQL Server</span>
+          <span class="tech-tag">Stored Procedures</span>
+          <span class="tech-tag">Retail Workflows</span>
+        </div>
+
+        <div class="modal-actions">
+          <a href="https://github.com/dasunmendis/POS_TEST" target="_blank" rel="noopener noreferrer"
+            class="btn btn-gradient btn-sm">
+            <i class="fa-brands fa-github"></i> View GitHub Repository
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal 3: SITS Identity -->
+  <div class="modal-overlay" id="modal-sits" role="dialog" aria-modal="true" aria-hidden="true">
+    <div class="modal-card">
+      <button class="modal-close-btn close-modal-btn" aria-label="Close modal">
+        <i class="fa-solid fa-xmark"></i>
+      </button>
+      <div class="modal-img-wrapper">
+        <img src="assets/projects/sits-identity.svg" alt="SITS Identity Details">
+      </div>
+      <div class="modal-body">
+        <span class="modal-category">Identity &amp; Security</span>
+        <h3 class="modal-title">SITS Identity &amp; User Access Suite</h3>
+        <p class="modal-description">
+          An enterprise authentication and user access management platform providing secure registration, login, role
+          management, and profile administration.
+        </p>
+
+        <h4 class="modal-section-heading">Key Architecture Highlights</h4>
+        <ul class="modal-list">
+          <li><strong>Security:</strong> PBKDF2 / Argon2 password hashing, refresh token rotation, and claims-based
+            authorization policies.</li>
+          <li><strong>Angular Client:</strong> HTTP interceptors for automatic token refresh and route guards protecting
+            sensitive admin views.</li>
+          <li><strong>Extensibility:</strong> Designed to serve as a centralized single-sign-on (SSO) gateway for
+            satellite services.</li>
+        </ul>
+
+        <div class="modal-tech-stack">
+          <span class="tech-tag">.NET Core API</span>
+          <span class="tech-tag">Angular</span>
+          <span class="tech-tag">OAuth2 / JWT</span>
+          <span class="tech-tag">C#</span>
+          <span class="tech-tag">TypeScript</span>
+        </div>
+
+        <div class="modal-actions">
+          <a href="https://github.com/dasunmendis/SITS_API" target="_blank" rel="noopener noreferrer"
+            class="btn btn-gradient btn-sm">
+            <i class="fa-solid fa-server"></i> API Repository
+          </a>
+          <a href="https://github.com/dasunmendis/SITS_APP" target="_blank" rel="noopener noreferrer"
+            class="btn btn-outline btn-sm">
+            <i class="fa-brands fa-angular"></i> App Repository
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal 4: Telerik MVC Portal -->
+  <div class="modal-overlay" id="modal-telerik" role="dialog" aria-modal="true" aria-hidden="true">
+    <div class="modal-card">
+      <button class="modal-close-btn close-modal-btn" aria-label="Close modal">
+        <i class="fa-solid fa-xmark"></i>
+      </button>
+      <div class="modal-img-wrapper">
+        <img src="assets/projects/telerik-mvc.svg" alt="Telerik MVC Portal Details">
+      </div>
+      <div class="modal-body">
+        <span class="modal-category">Enterprise Analytics</span>
+        <h3 class="modal-title">Telerik MVC Data Analytics Portal</h3>
+        <p class="modal-description">
+          Demonstration of advanced data presentation, server-side aggregation, and interactive analytics combining
+          ASP.NET MVC architecture with Telerik Kendo UI widgets.
+        </p>
+
+        <h4 class="modal-section-heading">Key Technical Features</h4>
+        <ul class="modal-list">
+          <li><strong>High-Volume Data Grids:</strong> Virtual scrolling, grouped aggregates, multi-column filters, and
+            inline batch editing.</li>
+          <li><strong>Visual Dashboards:</strong> Dynamic bar, line, and donut charts synchronized with server query
+            endpoints.</li>
+          <li><strong>Export Engine:</strong> Native binary generation of formatted Excel spreadsheets and PDF
+            summaries.</li>
+        </ul>
+
+        <div class="modal-tech-stack">
+          <span class="tech-tag">ASP.NET MVC</span>
+          <span class="tech-tag">Telerik UI</span>
+          <span class="tech-tag">Kendo UI</span>
+          <span class="tech-tag">C#</span>
+          <span class="tech-tag">JavaScript</span>
+        </div>
+
+        <div class="modal-actions">
+          <a href="https://github.com/dasunmendis/TelerikMVC" target="_blank" rel="noopener noreferrer"
+            class="btn btn-gradient btn-sm">
+            <i class="fa-brands fa-github"></i> View GitHub Repository
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal 5: Clean Architecture Suite -->
+  <div class="modal-overlay" id="modal-cleanarch" role="dialog" aria-modal="true" aria-hidden="true">
+    <div class="modal-card">
+      <button class="modal-close-btn close-modal-btn" aria-label="Close modal">
+        <i class="fa-solid fa-xmark"></i>
+      </button>
+      <div class="modal-img-wrapper">
+        <img src="assets/projects/clean-architecture.svg" alt="Clean Architecture Reference Details">
+      </div>
+      <div class="modal-body">
+        <span class="modal-category">Architecture Reference</span>
+        <h3 class="modal-title">ASP.NET Clean Architecture Reference Suite</h3>
+        <p class="modal-description">
+          An architectural blueprint and boilerplate showcasing how to organize enterprise .NET applications for
+          testability, maintainability, and clean separation of concerns.
+        </p>
+
+        <h4 class="modal-section-heading">Architectural Highlights</h4>
+        <ul class="modal-list">
+          <li><strong>Layer Isolation:</strong> Strict dependency flow from Presentation -> Infrastructure ->
+            Application -> Domain Core.</li>
+          <li><strong>CQRS with MediatR:</strong> Command and Query separation preventing bloated controllers and
+            spaghetti business logic.</li>
+          <li><strong>Automated Validation &amp; Errors:</strong> FluentValidation pipelines integrated with RFC-7807
+            problem details responses.</li>
+        </ul>
+
+        <div class="modal-tech-stack">
+          <span class="tech-tag">Clean Architecture</span>
+          <span class="tech-tag">CQRS</span>
+          <span class="tech-tag">MediatR</span>
+          <span class="tech-tag">Entity Framework Core</span>
+          <span class="tech-tag">C# .NET</span>
+        </div>
+
+        <div class="modal-actions">
+          <a href="https://github.com/dasunmendis/ASP.Net-MVC-Sample" target="_blank" rel="noopener noreferrer"
+            class="btn btn-gradient btn-sm">
+            <i class="fa-brands fa-github"></i> View GitHub Repository
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- JavaScript Logic -->
+  <script src="app.js"></script>
+</body>
+
+</html>
