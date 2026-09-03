@@ -1,8 +1,6 @@
 <div align="center">
 
-  <img src="assets/dasun.png" alt="Dasun Mendis"
-       width="140" height="140"
-       style="border-radius: 50%; border: 3px solid #06b6d4; box-shadow: 0 0 25px rgba(6, 182, 212, 0.4);" />
+  <img src="assets/dasun-circle.png" alt="Dasun Mendis" width="160" />
 
   # Dasun Mendis
   ### Lead Developer & Software Consultant (.NET / Full-Stack)
@@ -86,6 +84,7 @@ dasunmendis.github.io/
 ├── README.md                            # Professional project documentation
 └── assets/
     ├── dasun.png                        # Official profile portrait
+    ├── dasun-circle.png                 # Circular branded avatar (with cyan glow) for README
     ├── favicon.svg                      # Custom vector branded favicon
     └── projects/                        # Visual project mockups
         ├── softone-taskmanager.svg
