@@ -1,6 +1,8 @@
 <div align="center">
 
-  <img src="assets/dasun.png" alt="Dasun Mendis" width="140" style="border-radius: 50%; border: 3px solid #06b6d4; box-shadow: 0 0 25px rgba(6, 182, 212, 0.4);" />
+  <img src="assets/dasun.png" alt="Dasun Mendis"
+       width="140" height="140"
+       style="border-radius: 50%; border: 3px solid #06b6d4; box-shadow: 0 0 25px rgba(6, 182, 212, 0.4);" />
 
   # Dasun Mendis
   ### Lead Developer & Software Consultant (.NET / Full-Stack)
